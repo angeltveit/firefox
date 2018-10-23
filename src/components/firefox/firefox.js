@@ -21,6 +21,7 @@ import { wire } from 'hyperhtml'
       background: -webkit-linear-gradient(top, #fcfcfc 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
       background: linear-gradient(to bottom, #fcfcfc 0%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+      text-align: center;
     }
     .firefox-emblem {
       background-image: url(public/birds.jpeg);
@@ -32,6 +33,12 @@ import { wire } from 'hyperhtml'
       height: 400px;
       width: 400px;
       max-width: 100%;
+    }
+    @media (max-width: 320px) {
+       .firefox-emblem {
+         width: 300px;
+         height: 300px;
+       }
     }
     .firefox-emblem.shadowdom {
       background-image: url(public/upsidedown.gif);
