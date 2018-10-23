@@ -23,18 +23,18 @@ import { wire } from 'hyperhtml'
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
     }
     .firefox-emblem {
-      background-image: url(/public/birds.jpeg);
+      background-image: url(public/birds.jpeg);
       background-position: bottom right;
       background-size: cover;
       animation-duration: 5s;
       animation-iteration-count: infinite;
-      -webkit-mask-box-image: url(/public/firefox.svg);
+      -webkit-mask-box-image: url(public/firefox.svg);
       height: 400px;
       width: 400px;
       max-width: 100%;
     }
     .firefox-emblem.shadowdom {
-      background-image: url(/public/upsidedown.gif);
+      background-image: url(public/upsidedown.gif);
     }
     h1 {
       font-size: 3em;
