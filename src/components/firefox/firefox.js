@@ -58,6 +58,7 @@ import { wire } from 'hyperhtml'
       left: 0;
       width: 100vw;
       height: 100vh;
+      pointer-events: none;
     }
     .upsidedown {
       color: #0c49ad;
