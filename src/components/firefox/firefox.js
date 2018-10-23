@@ -64,7 +64,7 @@ import { wire } from 'hyperhtml'
       border-bottom: 2px solid #0c49ad;
     }
   </style>
-  <sgg-count-down ondone=${() => this.setDone() } time="1540321200688"></sgg-count-down>
+  <sgg-count-down ondone=${() => this.setDone() } time="1540306453096"></sgg-count-down>
   <div class=${this.firefoxClass}></div>
   <h1>Firefox grows up</h1>
   <p>Firefox 63 - The <span class="upsidedown" onclick=${()=> this.toggleShadow()}>Shadow DOM</span> (bug 1471947) and Custom Elements (bug 1471948) APIs have been enabled by default; See Web components for more details.</p>
