@@ -4,6 +4,9 @@ import { Component, Template } from '@scoutgg/widgets'
 @Template(function (html) {
   html `
     <style>
+    :host {
+      pointer-events: none;
+    }
     body {
     margin: 0;
     padding: 0;
